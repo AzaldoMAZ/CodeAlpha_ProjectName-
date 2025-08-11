@@ -1,0 +1,1162 @@
+[
+    {
+        "timestamp":  "2025-08-11T15:52:44.285817+0200",
+        "flow_id":  1227577555735001,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "1.1.1.1",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  74,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:52:44.285817+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "1.1.1.1"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:52:45.308404+0200",
+        "flow_id":  1227577555735001,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "1.1.1.1",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  2,
+                     "pkts_toclient":  1,
+                     "bytes_toserver":  148,
+                     "bytes_toclient":  74,
+                     "start":  "2025-08-11T15:52:44.285817+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "1.1.1.1"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:52:45.444170+0200",
+        "flow_id":  1626221753315805,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  65369,
+        "dest_ip":  "8.8.8.8",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  2,
+                                      "rrname":  "example.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  71,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:52:45.444170+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "8.8.8.8",
+                     "src_port":  65369,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:52:45.458451+0200",
+        "flow_id":  1687560547228189,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  65370,
+        "dest_ip":  "8.8.8.8",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  3,
+                                      "rrname":  "example.com",
+                                      "rrtype":  "AAAA",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  71,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:52:45.458451+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "8.8.8.8",
+                     "src_port":  65370,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:54:05.557512+0200",
+        "flow_id":  1557990367135762,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  60405,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  4,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  19710,
+                                      "rrname":  "catalog.gamepass.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  4,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  3,
+                     "pkts_toclient":  2,
+                     "bytes_toserver":  228,
+                     "bytes_toclient":  498,
+                     "start":  "2025-08-11T15:52:29.952571+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  60405,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:54:55.230908+0200",
+        "flow_id":  1557990367135762,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  60405,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  8,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  20285,
+                                      "rrname":  "self.events.data.microsoft.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  8,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  392,
+                     "bytes_toclient":  939,
+                     "start":  "2025-08-11T15:52:29.952571+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  60405,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:27.280650+0200",
+        "flow_id":  1557990367135762,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  60405,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  12,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  40572,
+                                      "rrname":  "download.windowsupdate.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  12,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  7,
+                     "pkts_toclient":  6,
+                     "bytes_toserver":  552,
+                     "bytes_toclient":  1396,
+                     "start":  "2025-08-11T15:52:29.952571+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  60405,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:27.307654+0200",
+        "flow_id":  2165790857301835,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "199.232.210.172",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  106,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:55:27.307654+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "199.232.210.172"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:27.334023+0200",
+        "flow_id":  2165790857301835,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "199.232.210.172",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  2,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  212,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:55:27.307654+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "199.232.210.172"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:27.504495+0200",
+        "flow_id":  2165790857301835,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "199.232.210.172",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  3,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  318,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:55:27.307654+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "199.232.210.172"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:27.684815+0200",
+        "flow_id":  2165790857301835,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "199.232.210.172",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  4,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  424,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:55:27.307654+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "199.232.210.172"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:55:31.093581+0200",
+        "flow_id":  1557990367135762,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  60405,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  14,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  31541,
+                                      "rrname":  "ecs.office.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  14,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  8,
+                     "pkts_toclient":  7,
+                     "bytes_toserver":  626,
+                     "bytes_toclient":  1653,
+                     "start":  "2025-08-11T15:52:29.952571+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  60405,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:56:52.754286+0200",
+        "flow_id":  1557990367135762,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  60405,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  22,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  7762,
+                                      "rrname":  "self.events.data.microsoft.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  22,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  12,
+                     "pkts_toclient":  11,
+                     "bytes_toserver":  938,
+                     "bytes_toclient":  2655,
+                     "start":  "2025-08-11T15:52:29.952571+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  60405,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:58:00.447608+0200",
+        "flow_id":  115524523602748,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  16411,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "TCP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  24772,
+                                      "rrname":  "config.edge.skype.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  323,
+                     "bytes_toclient":  444,
+                     "start":  "2025-08-11T15:58:00.420113+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  16411,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:58:00.449583+0200",
+        "flow_id":  118708377839265,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  16412,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "TCP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  26002,
+                                      "rrname":  "config.edge.skype.com",
+                                      "rrtype":  "HTTPS",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  323,
+                     "bytes_toclient":  471,
+                     "start":  "2025-08-11T15:58:00.420854+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  16412,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:58:34.439996+0200",
+        "flow_id":  1563741872422538,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  58928,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  4,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  55157,
+                                      "rrname":  "clientconfig.rpg.riotgames.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  4,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  3,
+                     "pkts_toclient":  2,
+                     "bytes_toserver":  238,
+                     "bytes_toclient":  498,
+                     "start":  "2025-08-11T15:58:05.953911+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  58928,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:59:05.541197+0200",
+        "flow_id":  354102234721927,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  51765,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  31876,
+                                      "rrname":  "catalog.gamepass.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  80,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:59:05.541197+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  51765,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:59:38.110617+0200",
+        "flow_id":  756574262186457,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "1.1.1.1",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  74,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:59:38.110617+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "1.1.1.1"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:59:39.131095+0200",
+        "flow_id":  756574262186457,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "dest_ip":  "1.1.1.1",
+        "proto":  "ICMP",
+        "icmp_type":  8,
+        "icmp_code":  0,
+        "pkt_src":  "wire/pcap",
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200001,
+                      "rev":  1,
+                      "signature":  "Lab: ICMP Echo request",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  2,
+                     "pkts_toclient":  1,
+                     "bytes_toserver":  148,
+                     "bytes_toclient":  74,
+                     "start":  "2025-08-11T15:59:38.110617+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "1.1.1.1"
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:59:39.429810+0200",
+        "flow_id":  1001598603423502,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  54141,
+        "dest_ip":  "8.8.8.8",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  2,
+                                      "rrname":  "example.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  71,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:59:39.429810+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "8.8.8.8",
+                     "src_port":  54141,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T15:59:39.445613+0200",
+        "flow_id":  1069472430885202,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  54142,
+        "dest_ip":  "8.8.8.8",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  3,
+                                      "rrname":  "example.com",
+                                      "rrtype":  "AAAA",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  1,
+                     "pkts_toclient":  0,
+                     "bytes_toserver":  71,
+                     "bytes_toclient":  0,
+                     "start":  "2025-08-11T15:59:39.445613+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "8.8.8.8",
+                     "src_port":  54142,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:00:04.200500+0200",
+        "flow_id":  1185375814879343,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  16732,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "TCP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  10207,
+                                      "rrname":  "alive.github.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  318,
+                     "bytes_toclient":  311,
+                     "start":  "2025-08-11T16:00:04.013847+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  16732,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:00:04.203695+0200",
+        "flow_id":  1187616161430591,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  16733,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "TCP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  0,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  44472,
+                                      "rrname":  "alive.github.com",
+                                      "rrtype":  "HTTPS",
+                                      "tx_id":  0,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  318,
+                     "bytes_toclient":  360,
+                     "start":  "2025-08-11T16:00:04.014369+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  16733,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:01:47.869104+0200",
+        "flow_id":  186815396961683,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  50505,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  8,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  65130,
+                                      "rrname":  "default.exp-tas.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  8,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  5,
+                     "pkts_toclient":  4,
+                     "bytes_toserver":  375,
+                     "bytes_toclient":  900,
+                     "start":  "2025-08-11T16:00:48.567784+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  50505,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:01:58.834682+0200",
+        "flow_id":  186815396961683,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  50505,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  12,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  54799,
+                                      "rrname":  "settings.visualstudio.microsoft.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  12,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  7,
+                     "pkts_toclient":  6,
+                     "bytes_toserver":  536,
+                     "bytes_toclient":  1162,
+                     "start":  "2025-08-11T16:00:48.567784+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  50505,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:02:38.831992+0200",
+        "flow_id":  186815396961683,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  50505,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  16,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  1765,
+                                      "rrname":  "settings-win.data.microsoft.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  16,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  9,
+                     "pkts_toclient":  8,
+                     "bytes_toserver":  701,
+                     "bytes_toclient":  1660,
+                     "start":  "2025-08-11T16:00:48.567784+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  50505,
+                     "dest_port":  53
+                 }
+    },
+    {
+        "timestamp":  "2025-08-11T16:02:42.683753+0200",
+        "flow_id":  186815396961683,
+        "in_iface":  "\\Device\\NPF_{933781DB-8467-4D86-97C3-4F1CDFA10EDF}",
+        "event_type":  "alert",
+        "src_ip":  "10.0.0.101",
+        "src_port":  50505,
+        "dest_ip":  "10.0.0.254",
+        "dest_port":  53,
+        "proto":  "UDP",
+        "pkt_src":  "wire/pcap",
+        "tx_id":  18,
+        "alert":  {
+                      "action":  "allowed",
+                      "gid":  1,
+                      "signature_id":  4200002,
+                      "rev":  1,
+                      "signature":  "Lab: DNS query .com",
+                      "category":  "",
+                      "severity":  3
+                  },
+        "dns":  {
+                    "version":  2,
+                    "query":  [
+                                  {
+                                      "type":  "query",
+                                      "id":  61006,
+                                      "rrname":  "settings-win.data.microsoft.com",
+                                      "rrtype":  "A",
+                                      "tx_id":  18,
+                                      "opcode":  0
+                                  }
+                              ]
+                },
+        "app_proto":  "dns",
+        "direction":  "to_server",
+        "flow":  {
+                     "pkts_toserver":  10,
+                     "pkts_toclient":  9,
+                     "bytes_toserver":  792,
+                     "bytes_toclient":  1887,
+                     "start":  "2025-08-11T16:00:48.567784+0200",
+                     "src_ip":  "10.0.0.101",
+                     "dest_ip":  "10.0.0.254",
+                     "src_port":  50505,
+                     "dest_port":  53
+                 }
+    }
+]

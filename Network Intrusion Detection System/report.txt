@@ -1,0 +1,29 @@
+Suricata IDS Mini Report
+Date: 2025-08-11 16:05
+Log file: C:\Users\azald\Desktop\suricata-lab\logs\eve.json
+
+Top event types:
+ - flow: 8255
+ - tls: 3699
+ - dns: 767
+ - stats: 326
+ - quic: 231
+
+Top destination IPs:
+ - 10.0.0.254: 1017
+ - 239.255.255.250: 928
+ - 54.160.50.214: 566
+ - 18.205.254.213: 551
+ - 23.21.108.201: 491
+
+Lab alerts (first 10):
+ - Lab: ICMP Echo request | 10.0.0.101 -> 1.1.1.1
+ - Lab: ICMP Echo request | 10.0.0.101 -> 1.1.1.1
+ - Lab: DNS query .com | 10.0.0.101 -> 8.8.8.8
+ - Lab: DNS query .com | 10.0.0.101 -> 8.8.8.8
+ - Lab: DNS query .com | 10.0.0.101 -> 10.0.0.254
+ - Lab: DNS query .com | 10.0.0.101 -> 10.0.0.254
+ - Lab: DNS query .com | 10.0.0.101 -> 10.0.0.254
+ - Lab: ICMP Echo request | 10.0.0.101 -> 199.232.210.172
+ - Lab: ICMP Echo request | 10.0.0.101 -> 199.232.210.172
+ - Lab: ICMP Echo request | 10.0.0.101 -> 199.232.210.172

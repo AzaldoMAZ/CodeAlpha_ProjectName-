@@ -1,0 +1,2 @@
+alert icmp any any -> any any (msg:"Lab: ICMP Echo request"; itype:8; sid:4200001; rev:1;)
+alert dns any any -> any 53 (msg:"Lab: DNS query .com"; dns_query; content:".com"; endswith; nocase; sid:4200002; rev:1;)
